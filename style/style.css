@@ -25,6 +25,12 @@ body {
 	top: 80px;
 	margin-left: 290px;
 }
+#plant {
+	position: absolute;
+	width: 500px;
+  left: 35%;
+  top: -90%;
+}
 
 
   /*section with potted cacti*/
