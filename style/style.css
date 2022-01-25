@@ -1,0 +1,139 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+body {
+	background:  #f2f2f2;
+}
+
+#logoPlant {
+	position: relative;
+	height: 80vh;	
+	margin-top: 20vh;
+}
+
+#logo {
+	width: 85%;
+}
+
+#logoPlant p {
+	font-size: 200%;
+	font-weight: 400;
+	font-family: 'Neonderthaw', cursive;
+	position: absolute;
+	top: 80px;
+	margin-left: 290px;
+}
+#plant {
+	position: absolute;
+	width: 500px;
+  left: 35%;
+  top: -90%;
+}
+
+  /*section with potted cacti*/
+  #potted {
+  	background: #4a4a4a;
+  	position: relative;
+  	display: block;
+  	height: 700px;
+}
+  #potted h2,  #potted p {
+  	color: #ffffff;
+ }
+ #potted h2{
+ 	position: absolute;
+ 	top: 15%;
+ 	left: 60%;
+ 	font-family: "Work Sans";
+ 	font-size: 81px;
+	line-height: 100px;
+	letter-spacing: 18.9844px;
+ }
+
+ #potted p{
+ 	width: 30%;
+ 	position: absolute;
+ 	height: 210px;
+	left: 60%;
+	top: 45%;
+	ont-family: Mukta Vaani;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 24px;
+	line-height: 35px;
+	text-align: justify;
+	color: #FFFFFF;
+}
+
+#cacti{
+	width: 30%;
+	position: absolute;
+	left: 10%;	
+	top: 36%;
+}
+ul {
+	position: absolute;
+	left: 1.5%;
+	top: 80%;
+}
+li {
+	list-style-type: none;
+}
+
+
+#vasesSection {
+	position: relative;
+}
+#allP {
+	font-size: 40px;
+	font-family: sans-serif;
+	text-transform: uppercase;
+	writing-mode: vertical-rl;	
+	text-orientation: upright;
+	color: #7A797A;
+	position: absolute;
+	left: -10%;
+}
+#pic1 {
+	height: 420px;
+}
+#pic2 {
+	height: 420px;
+}
+
+.PP{
+	font-family: "Mukta Vaani", sans-serif;
+	font-size: 24px;
+	color: #7A797A;
+}
+#vasesSection div{
+	text-align: center;
+}
+#div1{
+	width: 400px;
+	position: absolute;
+	left: 30%;
+	top: 300px;
+}
+#div1 #pic1{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+#div2{
+	position: absolute;
+	width: 580px;
+	left: calc(30% + 400px);
+	top: 300px;
+}
+
+#cacti1{
+	position: absolute;
+	top: 900px;
+	left: 8%;
+	width: 200px;
+}
+
+
